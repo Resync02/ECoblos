@@ -1,0 +1,87 @@
+/* ==================== BAGIAN FONT ====================  */
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;        
+}
+
+
+/* ==================== BAGIAN NAVBAR ====================  */
+.container-fluid {
+    margin-bottom: 50px;
+}
+
+.container-fluid a{
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+
+
+ul {
+    position: absolute;
+    left: 240px;     /* Ganti navbar sesuai ukuran laptop */
+}
+
+
+.nav-item a {
+    color: rgb(0, 0, 0);
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;    
+}
+/* ==================== BAGIAN NAVBAR END ====================  */
+
+
+/* ==================== BAGIAN HOME ====================  */
+.bg-gray-50{
+    background-image: url("../IMG/home2.jpg");
+    background-size: cover;
+}
+
+
+section h1{
+    color: rgb(178, 9, 9);
+}
+
+
+.font-extrabold strong{
+    color: rgb(103, 103, 103);
+}
+
+
+p{
+    color: rgb(189, 183, 0);
+}
+/* ==================== BAGIAN HOME END ====================  */
+
+
+/* ==================== BAGIAN CONTENT 1 ====================  */
+
+
+
+
+.font-bold {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/* ==================== BAGIAN CONTENT 1 END ====================  */
+

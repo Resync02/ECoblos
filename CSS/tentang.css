@@ -1,0 +1,59 @@
+/* ==================== BAGIAN FONT ====================  */
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@100&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;        
+}
+
+/* ==================== BAGIAN NAVBAR ====================  */
+.container-fluid a{
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;
+}
+
+
+ul {
+    position: absolute;
+    left: 450px;
+}
+
+
+.nav-item a {
+    color: rgb(0, 0, 0);
+    font-family: "Ysabeau SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: large;    
+}
+/* ==================== BAGIAN NAVBAR END ====================  */
+
+
+
+
+/* ==================== BAGIAN CONTENT 1 ====================  */
+.font-bold {
+    color: rgb(0, 0, 0);
+}
+
+.mt-8 li{
+    position: relative;
+    right: 100px;
+    margin-bottom: 50px;
+}
+/* ==================== BAGIAN CONTENT 1 END ====================  */
+

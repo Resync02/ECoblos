@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("../img/login_image.jpg");
+    background-size: cover; /* Membuat gambar menyesuaikan ukuran layar */
+    background-position: center; /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+    color: #fff;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 35px;
+    border-radius: 20px;
+    width: 310px;
+    margin: 150px auto;
+    text-align: center;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.login-container button {
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-container button:hover {
+    background-color: #d62828;
+}
+.links {
+    margin-top: 15px;
+}
+.links a {
+    color: #e63946;
+    text-decoration: none;
+}
+.links a:hover {
+    text-decoration: underline;
+}   
+.error {
+    color: red;
+    font-size: 14px;
+}

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ==================== BAGIAN HEADER ====================  */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px;
+    background: url("../IMG/header/header.jpg") no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+/* ==================== BAGIAN HEADER END ====================  */
+
+
+/* ==================== BAGIAN HEADER FONT E-COBLOS ====================  */
+.header .left {
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+.header .left img {
+    width: 60px;
+    height: 60px;
+    /* margin-right: 10px; */
+    margin-bottom: 10px;
+}
+/* ==================== BAGIAN HEADER LOGO E-COBLOS END ====================  */
+
+
+/* ==================== BAGIAN HEADER FONT SAATNYA INDONESIA MEMILIH ====================  */
+.header .center {
+    /* flex-grow: 1; */
+    text-align: center;
+}
+/* ==================== BAGIAN HEADER FONT SAATNYA INDONESIA MEMILIH END ====================  */
+
+
+/* ==================== BAGIAN HEADER PROFIL ====================  */
+.header .right {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.header .right button {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+    cursor: pointer;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .right button img {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+}
+
+.header .right button:hover {
+    opacity: 0.8;
+}
+/* ==================== BAGIAN HEADER PROFIL END ====================  */
+
+
+/* ==================== BAGIAN SIDEBAR ====================  */
+.sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    position: relative;     /* Mengatur agar sidebar tetap scroll  */
+    /* top: 70px;     */
+             /* Mengatur Panjang Sidebar */
+
+    /* left: 0; */
+    
+    /* height: calc(120vh - 70px); */
+    height: 100vh;
+    overflow-y: auto;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+/* ==================== BAGIAN SIDEBAR END ====================  */
+
+
+/* ==================== BAGIAN SIDEBAR FONT ====================  */
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* ==================== BAGIAN SIDEBAR FONT END ====================  */
+
+
+/* ==================== BAGIAN SIDEBAR LIST ====================  */
+.sidebar ul li {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+/* ==================== BAGIAN SIDEBAR LIST END ====================  */
+
+
+/* ==================== BAGIAN SIDEBAR LIST ====================  */
+.sidebar ul li a {
+    text-decoration: none;
+    color:#000000;
+    display: block;
+}
+
+.sidebar ul li i {
+    margin: 5px;
+}
+/* ==================== BAGIAN SIDEBAR LIST END ====================  */
+
+
+/* ==================== BAGIAN SIDEBAR LIST HOVER ====================  */
+.sidebar ul li a:hover {
+    /* background-color: transparent; */
+    /* box-shadow: 0px 0px 50px 10px rgb(234, 99, 255); */
+    padding: 5px;
+    /* border-radius: 15px; */
+    color: #492ae5;
+}
+/* ==================== BAGIAN SIDEBAR LIST HOVER END ====================  */
+
+
+/* ==================== BAGIAN HEADLINE ====================  */
+.headline{
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 230px;
+    /* background-color: #614fbc77; */
+    /* min-height: calc(50vh - 70px); */
+    position: absolute;
+    top: 180px;
+}
+.headline h1{
+    font-size: 30px;
+}
+
+/* ==================== BAGIAN HEADLINE END ====================  */
+
+
+/* ==================== BAGIAN MAIN CONTENT ====================  */
+.container{
+    /* background-color: red; */
+    position: absolute;
+    top: 180px;
+    left: 240px;
+}
+
+
+/* ==================== BAGIAN MAIN CONTENT SEARCH BAR ====================  */
+.card-header input{
+    position: absolute;
+    top: 9px;
+    left: 950px;
+}
+/* ==================== BAGIAN MAIN CONTENT SEARCH BAR END ====================  */
+
+
+/* ==================== BAGIAN MAIN CONTENT TABLE ====================  */
+.card-body{
+    background-color: #ffffff;
+}
+
+.card table{
+    background-color: red;
+}
+
+
+
+/* ==================== BAGIAN MAIN CONTENT TABLE END ====================  */
+
+
+
+
+
+
+
+/* ==================== BAGIAN MAIN CONTENT END ====================  */
+
+
+/* ==================== BAGIAN FOOTER ====================  */
+.text-center{
+    background-color: rgba(255, 0, 0, 0.233);
+    padding: 50px;
+    justify-content: center;
+}
+.sosial{
+    list-style-type: none;
+    text-decoration: none;
+}
+/* ==================== BAGIAN FOOTER END ====================  */

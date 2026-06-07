@@ -1,0 +1,84 @@
+
+/* ==================== BAGIAN MAIN CONTENT ====================  */
+.container{
+    /* background-color: red; */
+    position: absolute;
+    top: 180px;
+    left: 140px;
+}
+
+
+/* ==================== BAGIAN MAIN CONTENT SEARCH BAR ====================  */
+.card-header input{
+    position: absolute;
+    top: 9px;
+    left: 150px;
+}
+/* ==================== BAGIAN MAIN CONTENT SEARCH BAR END ====================  */
+
+
+/* ==================== BAGIAN MAIN CONTENT TABLE ====================  */
+.table {
+    size: 50%;
+
+}
+.card-body{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* 
+.card table{
+    background-color: red;
+} */
+
+
+
+
+
+/* ==================== BAGIAN MAIN CONTENT TABLE END ====================  */
+/* Pembungkus tabel untuk membuatnya responsif */
+.table-responsive {
+    max-width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd; /* Tambahkan border untuk membedakan area tabel */
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Atur tabel agar tidak melebihi lebar pembungkus */
+.table {
+    width: 100%;
+    max-width: 100%;
+    table-layout: auto; /* Biarkan kolom tabel secara otomatis menyesuaikan lebar */
+    white-space: nowrap; /* Pastikan konten tabel tidak terpotong */
+}
+
+/* Atur tampilan header tabel */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Sesuaikan warna latar belakang dan border */
+.table th {
+    background-color: #f8f9fa;
+    color: #000;
+    font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Warna latar belakang untuk baris genap */
+}
+
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 12px; /* Perkecil font untuk layar kecil */
+        padding: 5px;
+    }
+}
+
+/* ==================== BAGIAN MAIN CONTENT END ====================  */
